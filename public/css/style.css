@@ -1,0 +1,205 @@
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, 
+a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    font-weight: normal;
+}
+.ui-menu .ui-menu-item-wrapper {font-size: 12px;}
+.ui-datepicker .ui-datepicker-title select {background: black;}
+.select2-container--default .select2-selection--single, 
+.select2-selection .select2-selection--single{
+    height: 26px;
+    padding: 2px 6px;
+    font-size: 14px;
+    border: 1px solid #54a8dd;
+    border-radius: 0;
+}
+.select2-results__option {
+    padding: 2px 6px;
+}
+.select2-container {
+    width: 100% !important;
+  }
+.table-scrollable>.table>thead>tr>td, .table-scrollable>.table>thead>tr>th{padding: 0px;}
+#tbody td{padding: 0px;}
+#tbody td input{border: 0;
+    background: transparent;
+    padding: 5px;
+    margin: 0;
+  }
+#tbody td input.qty,#tbody td input.less,#tbody td input.paid {
+  background: #fff;
+  pointer-events: unset;
+}
+
+
+
+
+
+
+.trees,
+.trees ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.trees ul {
+  margin-left: 1em;
+  position: relative;
+}
+.trees ul ul {
+  margin-left: 0.5em;
+}
+.trees ul:before {
+  content: "";
+  display: block;
+  width: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid;
+}
+.trees li {
+  margin: 0;
+  padding: 0 1em;
+  line-height: 2em;
+  color: #369;
+  font-weight: 700;
+  position: relative;
+}
+.trees ul li:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 0;
+  border-top: 1px solid;
+  margin-top: -1px;
+  position: absolute;
+  top: 1em;
+  left: 0;
+}
+.trees ul li:last-child:before {
+  background: #fff;
+  height: auto;
+  top: 1em;
+  bottom: 0;
+}
+.indicator {
+  margin-right: 5px;
+}
+.trees li a {
+  text-decoration: none;
+  color: #369;
+}
+.trees li button,
+.trees li button:active,
+.trees li button:focus {
+  text-decoration: none;
+  color: #369;
+  border: none;
+  background: transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  outline: 0;
+}
+.trees a.trees-action {
+  text-decoration: underline;
+  color: #f29e3a;
+}
+
+.imageThumb {
+  max-height: 75px;
+  border: 2px solid;
+  padding: 1px;
+  cursor: pointer;
+}
+.pip {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+}
+.remove {
+  display: block;
+  background: #444;
+  border: 1px solid black;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.remove:hover {
+  background: white;
+  color: black;
+}
+
+.none {
+  display: none;
+}
+.form-group {
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.text-muted {
+  color: #767474 !important;
+}
+.text-sem-m {
+  font-size: 1.14286rem;
+  line-height: 1.71429rem;
+}
+.text-s {
+  font-size: 0.85714rem;
+  line-height: 1.28571rem;
+}
+table td.action a {
+  float: left;
+  margin-right: 4px;
+}
+.table-scrollable {
+  min-height: 250px;
+}
+.table-scrollable table tbody input {
+  pointer-events: none;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  margin-bottom: 0.5rem;
+  font-family: 'SolaimanLipi', sans-serif;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #000;
+}
+b, strong, a{  
+  font-family: 'SolaimanLipi', sans-serif;
+}
+body {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'SolaimanLipi', sans-serif;
+  color: #323232;
+  background: #fff none repeat scroll 0 0!important;
+  overflow-x: hidden;
+}
+.english-button a {
+  display: block;
+  font-size: 12px;
+  color: #ff5722;
+}
+.date ul li {
+  letter-spacing: normal;
+}
+.mobile-view{display: none;}
+@media screen and (min-device-width: 268px) and (max-device-width: 767px) { 
+  .desktop-view{display: none;}
+  .mobile-view{display: block;}
+  .logo-area {text-align: left;}
+  .date {text-align: left;}
+  .header-top-area {background: #fff;}
+  .date ul li, .english-button a{color: #000;}
+  .navbar-light .navbar-toggler{width: 100%;}
+  .navbar-collapse li{text-align: center;}
+  .dropdown-item{text-align: center;}
+}
+
+
+.logo-area {
+    text-align: left;
+}
+
